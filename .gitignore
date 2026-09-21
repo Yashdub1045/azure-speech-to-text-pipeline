@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Temporary/generated files
+transcript.txt
+temp_input_*
+temp_output_*
+
+# VS Code
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
+
+sample.wav
