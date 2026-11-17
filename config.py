@@ -12,6 +12,7 @@ CONFIG = {
     "connection_string": os.getenv("STORAGE_CONNECTION_STRING"),
     "audio_container": os.getenv("STORAGE_CONTAINER"),
     "transcript_container": os.getenv("TRANSCRIPT_CONTAINER"),
+    "api_key": os.getenv("API_KEY"),
 }
 
 def validate_config():
